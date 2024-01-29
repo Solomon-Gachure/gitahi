@@ -2,6 +2,7 @@ import React, { useState }  from 'react'
 import logo from '../assets/picha.png'
 import { FaLightbulb } from "react-icons/fa";
 import { MdMenu, MdClose } from "react-icons/md";
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [lightmode, setLightmode]=useState(false)
@@ -24,18 +25,30 @@ const Navbar = () => {
     <div className={`font-mono w-full  ${lightmode? 'bg-white text-black': 'bg-stone-950  text-white'}`}>
         <div className='flex fixed w-full justify-between md:justify-center gap-20 md:gap-64 items-center p-4 z-50 bg-opacity-60 backdrop-blur-lg backdrop-filter:blur(8px) bg-clip-padding'>
             {/**logo */}
-            <div className=' h-[30px] rounded-full w-[30px]'>
+            <Link activeClass="active" to="about"  smooth={true} offset={50} duration={500} >
+                        <div className=' h-[30px] rounded-full w-[30px] cursor-pointer'>
 <img className='w-full h-full rounded-full'
  src={logo}
   alt="Solomon." />
             </div>
+                    </Link>
+            
             {/**links to various pages */}
             <div>
                 <ul className='hidden md:flex items-center gap-4 font-semibold text-2xl'>
-                    <li className='cursor-pointer'>About</li>
-                    <li className='cursor-pointer'>Projects</li>
-                    <li className='cursor-pointer'>Skills</li>
-                    <li className='cursor-pointer'>Contact</li>
+                    <Link activeClass="active" to="about"  smooth={true} offset={50} duration={500} >
+                        <li className='cursor-pointer'>About</li>
+                    </Link>
+                    <Link activeClass="active" to="projects"  smooth={true} offset={50} duration={500} >
+                        <li className='cursor-pointer'>Project</li>
+                    </Link>
+                    <Link activeClass="active" to="skills"  smooth={true} offset={50} duration={500} >
+                        <li className='cursor-pointer'>Skills</li>
+                    </Link>
+                    
+                    <Link activeClass="active" to="contact"  smooth={true} offset={50} duration={500} >
+                        <li className='cursor-pointer'>Contact</li>
+                    </Link>
                     <FaLightbulb onClick={switchLight} size={25} className='cursor-pointer' />
                 </ul>
             </div>
@@ -54,10 +67,19 @@ const Navbar = () => {
                   <div className=' ml-auto'>
                     <MdClose onClick={handleClose} className='cursor-pointer z-50 font-bold animate-bounce' size={35}/>
                   </div>
-                  <li className='cursor-pointer'>About</li>
-                    <li className='cursor-pointer'>Projects</li>
-                    <li className='cursor-pointer'>Skills</li>
-                    <li className='cursor-pointer'>Contact</li>
+                  <Link onClick={handleClick} activeClass="active" to="about"  smooth={true} offset={50} duration={500} >
+                        About
+                    </Link>
+                    <Link onClick={handleClick} activeClass="active" to="projects"  smooth={true} offset={50} duration={500} >
+                        Project
+                    </Link>
+                    <Link onClick={handleClick} activeClass="active" to="skills"  smooth={true} offset={50} duration={500} >
+                        Skills
+                    </Link>
+                    
+                    <Link onClick={handleClick} activeClass="active" to="contact"  smooth={true} offset={50} duration={500} >
+                        Contact
+                    </Link>
                 </ul>
             </div>
       </div>
