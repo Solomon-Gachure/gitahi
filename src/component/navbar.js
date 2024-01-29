@@ -21,10 +21,10 @@ const Navbar = () => {
     }
   
   return (
-    <div className='font-mono'>
-        <div className='flex justify-between md:justify-center gap-20 md:gap-64 items-center p-2 z-50 bg-opacity-60 backdrop-blur-lg backdrop-filter:blur(8px) bg-clip-padding'>
+    <div className={`font-mono w-full  ${lightmode? 'bg-white text-black': 'bg-stone-950  text-white'}`}>
+        <div className='flex fixed w-full justify-between md:justify-center gap-20 md:gap-64 items-center p-4 z-50 bg-opacity-60 backdrop-blur-lg backdrop-filter:blur(8px) bg-clip-padding'>
             {/**logo */}
-            <div className='border h-[30px] rounded-full w-[30px]'>
+            <div className=' h-[30px] rounded-full w-[30px]'>
 <img className='w-full h-full rounded-full'
  src={logo}
   alt="Solomon." />
