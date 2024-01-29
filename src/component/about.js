@@ -3,12 +3,12 @@ import AOS from 'aos'
 import 'aos/dist/aos.css';
 const About = () => {
   useEffect(() => {
-    AOS.init();
+    AOS.init({duration:1000});
   }, []);
   return (
-    <div className='pt-16 h-screen text-white bg-stone-900'>
-      <div className='flex items-center justify-center p-2 pt-10 '>
-<p className='font-mono md:text-lg max-w-4xl '><span className='text-2xl md:text-5xl font-extrabold' data-aos="fade-right">Salut!👋🏾</span> <br/> 
+    <div className='pt-16 h-full  text-white bg-stone-900'>
+      <div className='flex items-center justify-center p-4 pt-10 '>
+<p className='font-mono md:text-xl max-w-4xl '><span className='text-2xl md:text-5xl font-extrabold' data-aos="fade-right">Salut!👋🏾</span> <br/> 
    <span className='text-xl md:text-2xl'><b className='text-amber-300'>Solomon Gachure</b> here, however you can call me Solomon!</span><br/>
   As a software engineer of two years specializing in the frontend domain, I bring a wealth of knowledge and experience to the table. My proficiency extends to cutting-edge technologies like <b>React, Next.js, and Tailwind CSS</b>, allowing me to create dynamic and responsive web applications.
 
