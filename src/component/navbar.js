@@ -31,7 +31,7 @@ const Navbar = () => {
             </div>
             {/**links to various pages */}
             <div>
-                <ul className='hidden md:flex items-center gap-4 text-2xl'>
+                <ul className='hidden md:flex items-center gap-4 font-semibold text-2xl'>
                     <li className='cursor-pointer'>About</li>
                     <li className='cursor-pointer'>Projects</li>
                     <li className='cursor-pointer'>Skills</li>
