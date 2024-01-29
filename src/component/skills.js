@@ -22,6 +22,14 @@ const Skills = () => {
 <FaGithub size={50} />
 <FaBootstrap size={50} />
     </div>
+    <div className='pt-6'>
+        <ol className='p-2 list-disc'>
+        <li><b>Testing</b> - Foundational understanding in Jest. </li>
+        <li><b>Databases</b> - Proficient in MongoDB & MySQL.</li>
+        <li className='font-bold'>Great communication.</li>
+        <li className='font-bold'>Teamwork & collaboration.</li>
+      </ol>
+    </div>
         </div>
         </div>
   )
