@@ -6,7 +6,7 @@
       AOS.init();
     }, []);
     return (
-      <div name='about' className='pt-16 h-full  text-white bg-stone-900'>
+      <div name='about' className='pt-16 h-full  text-white '>
         <div className='flex items-center justify-center p-4 pt-10 '>
   <p className='font-mono md:text-xl max-w-4xl '><span className='text-2xl md:text-5xl font-extrabold' data-aos="fade-right">Salut!👋🏾</span> <br/> 
     <span className='text-xl md:text-2xl'><b className='text-amber-300'>Solomon Gachure</b> here, however you can call me Solomon!</span><br/>

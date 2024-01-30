@@ -5,7 +5,7 @@
     import apato from '../assets/apato.png'
     const Projects = () => {
     return (
-        <div name='projects' className='h-full bg-stone-900'>
+        <div name='projects' className='h-full'>
             <div className='md:flex md:flex-col items-center justify-center p-2 font-mono text-white '>
             <div className=' w-full md:pl-40'>
     <h1 className='text-4xl text-start md:text-5xl font-extrabold border-b md:w-[600px]  pb-4 font-roboto '>Projects</h1>

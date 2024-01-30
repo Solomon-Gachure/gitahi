@@ -4,7 +4,7 @@ import { SiNextdotjs, SiJavascript,SiHtml5,SiTailwindcss  } from "react-icons/si
 
 const Skills = () => {
   return (
-    <div name='skills' className=' h-full font-mono  text-white bg-stone-900'>
+    <div name='skills' className=' h-full font-mono  text-white'>
         <div className='flex flex-col items-center justify-center p-4 pt-10 '>
             <div className=' w-full md:pl-40'>
     <h1 className='text-4xl text-start md:text-5xl font-extrabold border-b md:w-[600px] font-roboto pb-4 '>Skills</h1>
