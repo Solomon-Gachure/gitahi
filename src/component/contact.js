@@ -18,7 +18,7 @@ const Contact = () => {
     });
   }, []);
   return (
-    <div name='contact' className=' h-full font-mono  text-white p-2'>
+    <div name='contact' className=' h-full font-mono  text-gray-600 dark:text-white p-2'>
         <div className='flex flex-col items-center justify-center p-4 pt-10 '>
 <div className=' w-full md:pl-40'>
     <h1 className='text-4xl text-start md:text-5xl font-extrabold border-b md:w-[600px] font-roboto pb-4 '>Contact</h1>
@@ -38,7 +38,7 @@ const Contact = () => {
                 <p><span className='text-amber-300'>Bonjour again!</span><br/><br/>
                 I'd love to hear from you, You can reach me through:
                 </p>
-                <div className='flex  justify-center items-center md:pt-4 text-gray-300 gap-4 md:gap-8'>
+                <div className='flex  justify-center items-center md:pt-4 text-gray-600 dark:text-gray-300 gap-4 md:gap-8'>
                 <a href="mailto:gachuresolomon64@gmail.com/" target='blank'><HiOutlineMail size={30}/></a>
                 <a href="https://www.linkedin.com/in/solomon-gachure-64a167183/" target='blank'><FaLinkedin size={30}/></a>
                  <a href="https://github.com/Solomon-Gachure" target='blank'><FaGithub size={30}/></a>

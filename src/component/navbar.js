@@ -1,11 +1,10 @@
 import React, { useState }  from 'react'
 import logo from '../assets/picha.png'
-import { FaLightbulb } from "react-icons/fa";
 import { MdMenu, MdClose } from "react-icons/md";
 import { Link } from 'react-scroll';
+import Bulb from './bulb';
 
 const Navbar = () => {
-  const [lightmode, setLightmode]=useState(false)
   const [menu, setMenu]=useState(false)
   const handleMenu=()=>{
       setMenu(!menu)
@@ -17,12 +16,8 @@ const Navbar = () => {
       handleClose()
     }
     
-    const switchLight=()=>{
-      setLightmode(!lightmode)
-    }
-  
   return (
-    <div className={`font-mono w-full  ${lightmode? 'bg-white text-black': 'bg-stone-950  text-white'}`}>
+    <div className={`font-mono w-full text-gray-600 dark:text-white`}>
         <div className='flex fixed w-full justify-between md:justify-center gap-20 md:gap-64 items-center p-4 z-50 bg-opacity-60 backdrop-blur-lg backdrop-filter:blur(8px) bg-clip-padding'>
             {/**logo */}
             <Link activeClass="active" to="about"  smooth={true} offset={50} duration={500} >
@@ -49,12 +44,12 @@ const Navbar = () => {
                     <Link activeClass="active" to="contact"  smooth={true} offset={50} duration={500} >
                         <li className='cursor-pointer'>Contact</li>
                     </Link>
-                    <FaLightbulb onClick={switchLight} size={25} className='cursor-pointer' />
+                    <Bulb/>
                 </ul>
             </div>
             {/**lightmode logo */}
             <div className='flex items-center md:hidden gap-2'>
-            <FaLightbulb onClick={switchLight} size={25} className='flex md:hidden cursor-pointer' />
+            <Bulb/>
             <MdMenu onClick={handleMenu} size={25} className='flex md:hidden' />
             </div>
         </div>
