@@ -19,7 +19,7 @@ const Bulb = () => {
     }
   return (
         <div>
-        <FaLightbulb size={25} className='flex cursor-pointer' onClick={changeTheme} />
+        <FaLightbulb size={25} className={`flex cursor-pointer ${theme === "light" ? 'text-yellow-500' : ''}`} onClick={changeTheme} />
       </div>
   )
 }
