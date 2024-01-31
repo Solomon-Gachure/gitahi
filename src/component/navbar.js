@@ -58,9 +58,9 @@ const Navbar = () => {
       <div className='w-full h-screen'>
         <div className='h-screen w-full '>
                 
-                  <ul className='flex flex-col top-0 pt-16 p-8 text-4xl text-gray-300 bg-transparent/40 fixed z-50 inset-0 ease-in-out h-full w-full backdrop-blur-lg backdrop-filter:blur(8px) gap-4 transition duration-100'>
+                  <ul className='flex flex-col top-0 pt-16 p-8 text-4xl font-bold text-gray-800 dark:text-white bg-transparent/40 fixed z-50 inset-0 ease-in-out h-full w-full backdrop-blur-lg backdrop-filter:blur(8px) gap-4 transition duration-100'>
                   <div className=' ml-auto'>
-                    <MdClose onClick={handleClose} className='cursor-pointer z-50 font-bold animate-bounce' size={35}/>
+                    <MdClose onClick={handleClose} className='cursor-pointer text-white z-50 font-bold animate-bounce' size={35}/>
                   </div>
                   <Link onClick={handleClick} activeClass="active" to="about"  smooth={true} offset={50} duration={500} >
                         About
