@@ -1,8 +1,8 @@
     import React from 'react'
     import dee from '../assets/dee.png'
-    import matatu from '../assets/matatu.png'
     import gymania from '../assets/gymania.png'
     import apato from '../assets/apato.png'
+    import jambo from '../assets/jambo.png'
     const Projects = () => {
     return (
       <div name="projects" className="h-full text-gray-600 dark:text-white">
@@ -74,7 +74,7 @@
                 <a href="https://kukujamboo.vercel.app/" target="blank">
                   <img
                     className="w-full object-cover hover:scale-95 duration-500"
-                    src={matatu}
+                    src={jambo}
                     alt="dee makeup salon"
                   />
                 </a>
