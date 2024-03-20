@@ -84,7 +84,7 @@
                   </a>
                   <p className="text-xl text-stone-500">
                     A website for a meal joint where customers can purchase
-                    their favourite chicken meals and drinks as well.
+                    their favourite chicken meals, pizza, burgers,salad and drinks as well.
                   </p>
                 </div>
               </div>
