@@ -15,23 +15,25 @@
           <div className="flex justify-center items-center p-4 pt-10">
             <div className="grid gap-8 md:grid-cols-2">
               <div className=" md:h-[400px] md:max-w-[360px]">
-                <a href="https://dee-smoky.vercel.app/" target="blank">
+                <a href="https://kukujamboo.vercel.app/" target="blank">
                   <img
                     className="w-full object-cover hover:scale-95 duration-500"
-                    src={dee}
+                    src={jambo}
                     alt="dee makeup salon"
                   />
                 </a>
                 <div className="p-4">
-                  <a href="https://dee-smoky.vercel.app/" target="blank">
-                    <h1 className="text-2xl font-bold">Dees Makeup Studio</h1>
+                  <a href="https://kukujamboo.vercel.app/" target="blank">
+                    <h1 className="text-2xl font-bold">Kuku Jamboo</h1>
                   </a>
                   <p className="text-xl text-stone-500">
-                    A website for Dee makeup studios showcasing their services
-                    portfolio, also customers can book for the services.
+                    A website for a meal joint where customers can purchase
+                    their favourite chicken meals, pizza, burgers,salad and
+                    drinks as well.
                   </p>
                 </div>
               </div>
+
               <div className=" md:h-[400px] md:max-w-[360px]">
                 <a href="https://gymania-seven.vercel.app/" target="blank">
                   <img
@@ -47,6 +49,24 @@
                   <p className="text-xl text-stone-500">
                     A website for gym customers to view services offered by
                     gymania and also view its facilities.
+                  </p>
+                </div>
+              </div>
+              <div className=" md:h-[400px] md:max-w-[360px]">
+                <a href="https://dee-smoky.vercel.app/" target="blank">
+                  <img
+                    className="w-full object-cover hover:scale-95 duration-500"
+                    src={dee}
+                    alt="dee makeup salon"
+                  />
+                </a>
+                <div className="p-4">
+                  <a href="https://dee-smoky.vercel.app/" target="blank">
+                    <h1 className="text-2xl font-bold">Dees Makeup Studio</h1>
+                  </a>
+                  <p className="text-xl text-stone-500">
+                    A website for Dee makeup studios showcasing their services
+                    portfolio, also customers can book for the services.
                   </p>
                 </div>
               </div>
@@ -67,24 +87,6 @@
                   <p className="text-xl text-stone-500">
                     A website for tenants in Hearthstone Apartments where they
                     can access payment details for rent, trash and water bills.
-                  </p>
-                </div>
-              </div>
-              <div className=" md:h-[400px] md:max-w-[360px]">
-                <a href="https://kukujamboo.vercel.app/" target="blank">
-                  <img
-                    className="w-full object-cover hover:scale-95 duration-500"
-                    src={jambo}
-                    alt="dee makeup salon"
-                  />
-                </a>
-                <div className="p-4">
-                  <a href="https://kukujamboo.vercel.app/" target="blank">
-                    <h1 className="text-2xl font-bold">Kuku Jamboo</h1>
-                  </a>
-                  <p className="text-xl text-stone-500">
-                    A website for a meal joint where customers can purchase
-                    their favourite chicken meals, pizza, burgers,salad and drinks as well.
                   </p>
                 </div>
               </div>
