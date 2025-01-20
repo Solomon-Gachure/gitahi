@@ -4,7 +4,6 @@ import {
   FaCss3Alt,
   FaGithub,
   FaBootstrap,
-  FaWordpress,
 } from "react-icons/fa";
 import { SiNextdotjs, SiJavascript,SiHtml5,SiTailwindcss  } from "react-icons/si";
 
@@ -36,7 +35,6 @@ const Skills = () => {
           <FaCss3Alt size={50} />
           <FaGithub size={50} />
           <FaBootstrap size={50} />
-          <FaWordpress size={50} />
         </div>
         <div className="pt-6">
           <ol className="p-2 list-disc">
